@@ -54,11 +54,11 @@ final class DoggoButton: UIButton {
         self.tintView = tintView
     }
     
-    open func clearImage() {
+    public func clearImage() {
         setBackgroundImage(nil, for: .normal)
     }
 
-    open func loadImage(from url: String) {
+    public func loadImage(from url: String) {
         setBackgroundImage(nil, for: .normal)
 
         guard let imageURL = URL(string: url) else {
