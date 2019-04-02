@@ -82,7 +82,7 @@ extension DoggoGameViewController: DoggoGameDelegate {
                     return
                 }
                 imageButton.loadImage(from: dogURL.message)
-                imageButton.setTitle(profile, for: UIControlState())
+                imageButton.setTitle(profile, for: UIControl.State())
                 imageButton.id = index
 
                 self.setInteractionEnabled(true)
